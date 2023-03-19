@@ -9,7 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@Roshanvikhar/rosh885688
     - uses: Roshanvikhar/rosh885688@master
       with:
         args: --acl public-read --follow-symlinks --delete --exclude '.git*/*'
