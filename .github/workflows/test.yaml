@@ -1,11 +1,9 @@
 name: CI Workflow
 
 on:
-  workflow_dispatch:
-    inputs:
-      name:
-        description: "test"
-        required: true
+  push:
+    branches:
+      - dev
 
 jobs:
   test:
